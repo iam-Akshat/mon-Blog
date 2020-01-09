@@ -76,7 +76,7 @@ app.post('/logmein',function(req,res){
   Admin.findOne({name:req.body.cred,password:req.body.pwd},function(err,foundAdmin){
     if(err){
       console.log(err);
-
+      res.redirect('/');
     }else{
       console.log("reached here 2");
       if(foundAdmin){
