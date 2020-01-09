@@ -1,0 +1,12 @@
+<%- include('partials/header'); %>
+<h2><%=new Date().toLocaleDateString('en-US',{weekday:'long',day:'numeric',year:'numeric',month:'long'})%></h2>
+<h1>HOME</h1>
+<p><%=homePageLorem %></p>
+
+<%posts.forEach(function(post){ %>
+<h1> <%=post.postTitle%> </h1>
+<p> <%=post.postContent.substring(0,125)%><a href="posts/<%= post._id %> ">...Read More </a></p>
+
+<% }); %>
+
+<%- include('partials/footer'); %>
