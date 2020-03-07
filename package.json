@@ -1,0 +1,11 @@
+{
+  "name": "akshatsethi",
+  "version": "1.0.0",
+  "description": "My website ",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Akshat Sethi",
+  "license": "ISC"
+}
