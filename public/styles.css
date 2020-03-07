@@ -1,3 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa',sans-serif;
+    text-decoration: none;
+}
 body{
-    background-color: red;
+
+}
+.name{
+    display: block;
+    font-size: 2rem;
+    color: whitesmoke;
+    padding: 1rem;
+}
+header{
+    color: whitesmoke;
+    display: flex;
+    width: 100vw;
+    background-color: rgb(23, 23, 36);
+}
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    align-self: flex-start;
 }
