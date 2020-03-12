@@ -9,7 +9,6 @@ document.querySelector(".menu-toggle").addEventListener('click',function(){
         document.querySelector(".nav-links").style.transition="ease-in 0.27s";
 
     }else{
-       
         document.getElementById("nav").style.width="50%"; 
         document.querySelector(".nav-links").style.height="86.5vh";
         document.querySelector(".nav-links").style.visibility="visible";    
